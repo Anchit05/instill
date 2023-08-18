@@ -1,0 +1,21 @@
+.header-container {
+  padding: 12px 80px 12px 150px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .search-wrapper{
+    width: 50%;
+  }
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .profile-pic {
+    background-color: #f5f7f9;
+    width: 52px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}

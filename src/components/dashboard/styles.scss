@@ -1,0 +1,9 @@
+.dashboard-container{
+  padding: 50px 80px 50px 150px;
+	background: #F5F7F9;
+	.instill-pulse-cnt{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+}

@@ -1,0 +1,50 @@
+.score-container {
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	background: #FFF;
+	padding: 32px;
+	width: 171px;
+	display: flex;
+	flex-direction: column;
+  .score-title {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+		flex: 1;
+  }
+	.bottom-text{
+		color: #666;
+		line-height: 140%;
+		font-size: 14px;
+	}
+	.common-wrapper{
+		flex: 1;
+	}
+	.chart-wrapper{
+		position: relative;
+    left: -40px;
+		top: 20px;
+	}
+	.score-value{
+		color: #111;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		&.text-red{
+			color: #FF3B6B;
+		}
+	}
+	.total-value{
+		color: #111;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+	&.bg-red{
+		background: rgba(255, 110, 110, 0.06);
+	}
+}

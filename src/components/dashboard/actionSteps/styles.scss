@@ -1,0 +1,107 @@
+.action-steps-container {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+  box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.08);
+  padding: 40px 48px 32px 48px;
+  margin-top: 40px;
+  .sub-heading-container {
+    padding-bottom: 32px;
+  }
+  .sub-heading-text {
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+		padding-bottom: 10px;
+  }
+  .main-text-cnt {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .attention-cnt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+		border-radius: 100px;
+		background: rgba(255, 59, 107, 0.10);
+		padding: 8px 12px;
+		.attention-text{
+			color: #FF3B6B;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 100%;
+			letter-spacing: -0.5px;
+		}
+  }
+  .main-text {
+    color: #333;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+  }
+	.steps-cnt{
+		border-radius: 10px 10px 0px 0px;
+		border: 1px solid rgba(0, 0, 0, 0.12);
+		background: #FFF;
+	}
+  .steps-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+		padding: 28px 20px;
+    .info-side {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .img-cnt {
+      width: 47px;
+      height: 47px;
+      background-color: #f5f7f9;
+			border-radius: 50%;
+    }
+    .info-title {
+      color: #000;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+    }
+    .info-desc {
+      color: #666;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+    }
+		.button-side{
+			display: inline-flex;
+			padding: 11px 24px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			border-radius: 100px;
+			background: #333;
+			cursor: pointer;
+			.btn-text{
+				color: #FFF;
+				text-align: center;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 16.226px;
+				text-transform: uppercase;
+			}
+		}
+		&:last-child{
+			border-bottom: none;
+		}
+  }
+}

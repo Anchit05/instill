@@ -1,0 +1,35 @@
+.cultural-vital-container {
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	background: #FFF;
+	box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.08);
+	padding: 40px 48px 48px 48px;
+	.sub-heading-container{
+		padding-bottom: 32px;
+	}
+  .sub-heading-text {
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+  .main-text {
+    color: #333;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 105% */
+  }
+	.progress-bar-cnt{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 26px;
+	}
+	.chart-cnt{
+		border-radius: 10px;
+    background: #FAFAFA;
+		padding: 16px;
+	}
+}

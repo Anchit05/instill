@@ -1,0 +1,45 @@
+.dashboard-heading-container {
+	.heading-container{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		padding-bottom: 40px;
+	}
+  .apple-cnt {
+		width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 87px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(22, 16, 91, 0.05);
+  }
+  .heading-text {
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+	.first-text{
+		color: #333;
+		font-size: 56px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 62px;
+	}
+	.designation-text{
+		color: #888;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 140%;
+	}
+	.greeting-cnt{
+		padding-bottom: 40px;
+	}
+}
