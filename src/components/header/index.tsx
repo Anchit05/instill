@@ -2,10 +2,6 @@ import React from 'react';
 import SearchComponent from '../ui/searchBar';
 import './index.scss';
 
-// interface HeaderProps {
-//   title: string;
-// }
-
 // Header component
 const Header = () => {
   return (

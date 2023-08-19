@@ -6,10 +6,6 @@ import InstillSenseComponent from "./instillSense";
 import PulseSurveyComponent from "./pulseSurvey";
 import ActionStepsComponent from "./actionSteps";
 
-// interface HeaderProps {
-//   title: string;
-// }
-
 // Header component
 const Dashboard = () => {
   return (

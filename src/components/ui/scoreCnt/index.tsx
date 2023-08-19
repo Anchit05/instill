@@ -10,7 +10,7 @@ interface ScoreData {
   value: number;
 }
 
-// Pulse Survey component
+// Score component
 const ScoreComponent: React.FC<ScoreData> = ({
   title,
   scoreType,

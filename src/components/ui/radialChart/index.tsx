@@ -15,7 +15,7 @@ interface ChartData {
 	height: string;
 }
 
-// Header component
+// Radial Chart component
 const RadialChartComponent: React.FC<ChartData> = ({title="", value, type="", showType, text="", color, width, height }) => {
   const series = [value];
   const options: any = {
@@ -36,7 +36,7 @@ const RadialChartComponent: React.FC<ChartData> = ({title="", value, type="", sh
         track: {
           background: "#DFDFDF",
           strokeWidth: "67%",
-          margin: 0, // margin is in pixels
+          margin: 0,
         },
         dataLabels: {
           show: true,
@@ -58,7 +58,7 @@ const RadialChartComponent: React.FC<ChartData> = ({title="", value, type="", sh
       colors: [color],
     },
 
-    labels: [`${value}%`], //label of this diagram,
+    labels: [`${value}%`],
     stroke: {
       lineCap: "round",
     },

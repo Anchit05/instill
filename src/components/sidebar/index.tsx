@@ -10,10 +10,6 @@ import sidebarIcon5 from '../../assets/sidebarIcon-5.svg';
 import sidebarIcon6 from '../../assets/sidebarIcon-6.svg';
 import sidebarIcon7 from '../../assets/sidebarIcon-7.svg';
 
-// interface HeaderProps {
-//   title: string;
-// }
-
 // Header component
 const SideBar = () => {
   return <div className="sidebar-container">
