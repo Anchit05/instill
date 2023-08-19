@@ -7,3 +7,12 @@
 		gap: 20px;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+  .dashboard-container{
+		padding: 50px 20px 50px 90px;
+		.instill-pulse-cnt{
+			display: block;
+		}
+  }
+}

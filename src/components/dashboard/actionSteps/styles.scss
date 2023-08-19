@@ -105,3 +105,31 @@
 		}
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .action-steps-container{
+		padding: 20px;
+		margin-bottom: 250px;
+		.main-text{
+			font-size: 20px;
+		}
+		.attention-cnt{
+			.attention-text{
+				font-size: 9px;
+			}
+		}
+		.steps-wrapper {
+			display: block;
+			.img-cnt{
+				margin: 0 auto;
+    		margin-bottom: 10px;
+			}
+			.info-side{
+				display: block;
+			}
+			.button-side{
+				margin-top: 10px;
+			}
+		}
+  }
+}
